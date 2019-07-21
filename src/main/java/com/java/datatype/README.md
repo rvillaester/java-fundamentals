@@ -56,10 +56,10 @@ Most basic data types available within the Java language. There are 8: boolean ,
 Is the process when you assign a value of one primitive data type to another type
 ###### Widening Casting
 **Automatically** converting a smaller type to a larger type size
-byte -> short -> char -> int -> long -> float -> double
+- byte -> short -> char -> int -> long -> float -> double
 ###### Narrowing Casting
 **Manually** converting a larger type to a smaller size type
-double -> float -> long -> int -> char -> short -> byte
+- double -> float -> long -> int -> char -> short -> byte
 
 # String
 - is a sequence of characters that exist as an object of the class java.lang.String
