@@ -59,15 +59,61 @@ Is the process when you assign a value of one primitive data type to another typ
 byte -> short -> char -> int -> long -> float -> double
 ###### Narrowing Casting
 **Manually** converting a larger type to a smaller size type
+double -> float -> long -> int -> char -> short -> byte
 
 # String
-A string is a sequence of characters that exist as an object of the class java.lang.String. It is created and manipulated through the string class. Once created, a string is immutable -- its value cannot be changed.
+- is a sequence of characters that exist as an object of the class java.lang.String
+- it is created and manipulated through the string class
+- once created, a string is immutable - its value cannot be changed.
+
+* Enumeration
+- used to assign a predefined set of constants to a variable
+- used this when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc.
 
 # Collections
 Is a framework that provides an architecture to store and manipulate the group of objects. It can achieve all the operations that you perform on a data such as searching, sorting, insertion, manipulation, and deletion.
 ###### Collection Interfaces
-- Set
 - List
+- Set
 - Queue
+
+## List
+- elements can be inserted or accessed by their position in the list, using a zero-based index
+- it can contain duplicate elements
+
+###### ArrayList
+- supports dynamic arrays that can grow as needed
+- allows us to randomly access the list
+- can not be used for primitive types, like int, char, etc
+
+###### LinkedList
+- are linear data structures where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part
+- elements are linked using pointers and addresses and each element is known as a node
+
+###### Vector
+- implements a dynamic array that means it can grow or shrink as required
+- very similar to ArrayList but Vector is synchronised and have some legacy method which collection framework does not contain
+
+###### Stack
+- is a Last In First Out (LIFO) data structure
+- supports two basic operations called push and pop
+- push operation adds an element at the top of the stack
+- pop operation removes an element from the top of the stack
+
+**Arraylist vs LinkedList** - https://www.javatpoint.com/difference-between-arraylist-and-linkedlist
+
+## Set
+- is an unordered collection of objects
+- it can't contain duplicate elements
+
+###### HashSet
+- elements that you insert are not guaranteed to be inserted in same order
+- elements are inserted based on their hash code
+- permits the null element
+
+###### TreeSet
+- implements the SortedSet interface
+- duplicate values are not allowed
+- elements are stored in a sorted and ascending order
 
 # Map
