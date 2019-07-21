@@ -116,4 +116,21 @@ Is a framework that provides an architecture to store and manipulate the group o
 - duplicate values are not allowed
 - elements are stored in a sorted and ascending order
 
-# Map
+## Map
+- perfect to use for key-value association mapping such as dictionaries
+- used to perform lookups by keys or when someone wants to retrieve and update elements by keys
+- cannot contain duplicate keys and each key can map to at most one value
+
+###### HashMap
+- doesn’t allow duplicate keys but allows duplicate values
+- allows null key also but only once and multiple null values
+- makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time
+
+###### LinkedHashMap
+- contains only unique elements
+- may have one null key and multiple null values
+- same as HashMap with additional feature that it maintains insertion order
+
+###### TreeMap
+- does not allow null keys
+- sorted based on it's key
