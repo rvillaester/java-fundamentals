@@ -66,7 +66,7 @@ double -> float -> long -> int -> char -> short -> byte
 - it is created and manipulated through the string class
 - once created, a string is immutable - its value cannot be changed.
 
-* Enumeration
+# Enumeration
 - used to assign a predefined set of constants to a variable
 - used this when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc.
 
